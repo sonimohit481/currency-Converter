@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Banner](https://github.com/sonimohit481/currency-convertor/blob/main/src/assets/banner.png)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currency Converter is a web application designed for converting currencies. The app fetches currency rates dynamically from an API, providing users with up-to-date and accurate conversion rates. The project utilizes custom hooks to enhance functionality and maintain a clean codebase.
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Explore the live demo: [Currency Convertor](https://currency-converter-01-mohit.netlify.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Dynamic currency rates from API
+- User-friendly interface
+- Custom hooks for enhanced functionality
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+
+- React
+- Custom Hooks
+- API for currency rates
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sonimohit481/currency-convertor.git
+   cd currency-convertor
+   npm install
+   npm start
+   ```
+
+## License
+
+This project is licensed under the MIT License.
+
+Feel free to adjust the content as needed for your specific project requirements.
