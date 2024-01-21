@@ -4,12 +4,12 @@ interface inputBoxfield {
   label: string;
   amount: number;
   onAmountChange: (amount: number) => void;
-  onCurrencyChange: any;
+  onCurrencyChange: (currency: string) => void;
   currencyOptions: any[];
   selectCurrency: string;
-  amountDisable: boolean;
-  currencyDisable: boolean;
-  className: string;
+  amountDisable?: boolean;
+  currencyDisable?: boolean;
+  className?: string;
 }
 
 const AppInput = ({
